@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="thinkindicator",
-    version="0.1.1",
+    version="0.1.2",
     author="Przemysław Buczkowski",
     author_email="prem@prem.moe",
     description="Tiny widget to control your ThinkPad's fan speed",

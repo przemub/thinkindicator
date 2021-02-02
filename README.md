@@ -33,9 +33,19 @@ An appropriate package is called python3-gobject in SUSE and Fedora, python3-gi 
 
 An appropriate package is called libappindicator3-1 in most distros, libappindicator-gtk3 in Arch.
 
-### Usage
+### Installation & Usage
 
-Run start.sh. You should see a number or letter signifying the current fan status in your taskbar. Click on it to change the mode. If you are in a manual mode (signified by a number) then you can scroll on the indicator to change the speed level.
+ThinkIndicator can be installed from [PyPI](https://pypi.org/project/thinkindicator/) with command `pip install thinkindicator`. You can then run it with command `thinkindicator`.
+
+You can also download it from git:
+
+```sh
+git clone https://github.com/przemub/thinkindicator
+cd thinkindicator
+./start.sh
+```
+
+Start ThinkIndicator using your preferred method. You should see a number or letter signifying the current fan status in your taskbar. Click on it to change the mode. If you are in a manual mode (signified by a number) then you can scroll on the indicator to change the speed level.
 
 If shit hits the fan (haha) let me know via the Issues tab.
 
